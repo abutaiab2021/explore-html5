@@ -10,6 +10,12 @@
         .borta{
             text-decoration: none;
         }
+        #pitha{
+            width: 200px;
+            height: 40px;
+            color: green;
+            font-size: 25px;
+        }
     </style>
 </head>
 <body>
@@ -17,7 +23,18 @@
     <header>
         <nav>
             <ul>
-                <li><a href="form.html">Form</a></li>
+                <li><a href="">linkr-1</a></li>
+                <li><a href="">linkr-1</a></li>
+                <li><a href="">linkr-1</a></li>
+                <li><a href="">linkr-1</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="table.html">Table</a></li>
                 <li><a href="audio-video.html">Audio & Video</a></li>
                 <li><a href="semantic.html">Semantic</a></li>
@@ -35,12 +52,22 @@
                <label for="chitoy"><input type="radio" name="pitha" id="chitoy">Chitoy</label>
             </p>
             <p>
-               <label for="vapa"><input type="radio" name="pitha" id="vapa">vapa</label>
+               <label for="vapa"><input type="radio" name="pitha" id="vapa">Vapa</label>
             </p>
             <p>
                <label for="tale"><input type="radio" name="pitha" id="tale">Tale Pitha</label>
             </p>
         </fieldset>
+
+        <fieldset>
+            <legend>Choose Your Pitha</legend>
+            <select name="pitha" id="pitha">
+                <option value="chitoy">Chitoy</option>
+                <option value="vapa">Vapa</option>
+                <option value="tale">Tale</option>
+            </select>
+        </fieldset>
+        
         <fieldset>
             <legend>Select your vorta</legend>
             <p><label for="shrisha"><input type="checkbox" name="vorta" id="shorisa">Shorisar Vorta</label></p>

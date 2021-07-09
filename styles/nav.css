@@ -1,3 +1,9 @@
+
+nav > ul{
+    display: flex;
+}
+
+
 nav li{
     list-style: none;
 }
@@ -8,13 +14,12 @@ nav li{
     padding: 10px 5px;
 }
 
-nav ul{
-    display: flex;
-   margin-left: 25%;
-}
-
 nav li:hover{
   background-color: lightgrey;
+}
+
+nav > ul > li:hover > ul{
+     display: block;
 }
 
 nav li a{
@@ -22,4 +27,15 @@ nav li a{
     text-decoration: none;
     font-size: 20px;
     
+}
+
+.dropdown li {
+    margin: 0;
+    padding: 0 10px;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightsalmon;
+    padding: 0;
 }
