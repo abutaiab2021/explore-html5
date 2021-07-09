@@ -9,13 +9,16 @@
     <style>
         .borta{
             text-decoration: none;
+            width: 300px;
         }
         #pitha{
             width: 200px;
             height: 40px;
             color: green;
             font-size: 25px;
+            font-weight: bold;
         }
+        
     </style>
 </head>
 <body>
@@ -43,7 +46,7 @@
          </nav>
     </header>
     <h1>Jamaler Ma TSC Special Pitha Expo</h1>
-    <form action="">
+    <form  action="">
         <p>Name: <input type="text" name="name" placeholder="Please enter your name" id=""></p>
         <p>Email: <input type="text" placeholder="Please enter your email" name="email" id=""></p>
         <fieldset class="borta">
@@ -59,8 +62,8 @@
             </p>
         </fieldset>
 
-        <fieldset>
-            <legend>Choose Your Pitha</legend>
+        <fieldset class="borta">
+            <legend class="legend-border">Choose Your Pitha</legend>
             <select name="pitha" id="pitha">
                 <option value="chitoy">Chitoy</option>
                 <option value="vapa">Vapa</option>
@@ -68,7 +71,7 @@
             </select>
         </fieldset>
         
-        <fieldset>
+        <fieldset class="borta">
             <legend>Select your vorta</legend>
             <p><label for="shrisha"><input type="checkbox" name="vorta" id="shorisa">Shorisar Vorta</label></p>
             <p><label for="shotki"><input type="checkbox" name="vorta" id="shotki">Shotkir Vorta</label></p>
